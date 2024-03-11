@@ -26,5 +26,6 @@ struct Contact{
         self.city = city
         self.zipcode = zipcode
         self.image = image
+        
     }
 }
