@@ -17,6 +17,7 @@ class ContactView: UIView {
     var address: UILabel!
     var city: UILabel!
     var zip: UILabel!
+    
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.

@@ -23,7 +23,6 @@ class ContactViewController: UIViewController {
             action: #selector(onEditBarButtonTapped)
         )
         setContactFields()
-        // Do any additional setup after loading the view.
     }
     
     @objc func onEditBarButtonTapped(){
@@ -58,5 +57,4 @@ class ContactViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }

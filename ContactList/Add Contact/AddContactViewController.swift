@@ -66,7 +66,7 @@ class AddContactViewController: UIViewController {
     }
     
     func getMenuImagePicker() -> UIMenu{
-        var menuItems = [
+        let menuItems = [
             UIAction(title: "Camera",handler: {(_) in
                 self.pickUsingCamera()
             }),
