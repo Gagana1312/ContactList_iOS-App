@@ -19,7 +19,7 @@ class FirstScreenView: UIView {
     
     func setupTableViewContacts(){
         tableViewContact = UITableView()
-        //tableViewContact.register(TableViewContactCell.self, forCellReuseIdentifier: "contacts")
+        tableViewContact.register(TableViewContactCell.self, forCellReuseIdentifier: "contacts")
         tableViewContact.translatesAutoresizingMaskIntoConstraints = false
         self.addSubview(tableViewContact)
     }

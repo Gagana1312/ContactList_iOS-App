@@ -5,6 +5,7 @@
 //  Created by Gagana Ananda on 3/11/24.
 //
 
+
 import UIKit
 
 class TableViewContactCell: UITableViewCell {
@@ -39,7 +40,7 @@ class TableViewContactCell: UITableViewCell {
     }
     
     func setupWrapperCellView(){
-        wrapperCellView = UITableViewCell()
+        wrapperCellView = UIView()
         wrapperCellView.backgroundColor = .white
         wrapperCellView.layer.cornerRadius = 10.0
         wrapperCellView.layer.shadowColor = UIColor.gray.cgColor
